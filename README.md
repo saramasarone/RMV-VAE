@@ -11,13 +11,13 @@ Scripts are currently organised by experiment:
 * PAAD_NORM: RMV-VAE on pancreatic cancer data - predicting survival
 
 
-To run these experiments I used data from TCGA available here: https://xenabrowser.net/datapages/
+To run these experiments we used data from TCGA available here: https://xenabrowser.net/datapages/
 
 
 To run this script on your data you'll need:
 
-- two or more omics datasets 
-- optional - clinical data to predict outcomes 
+- Two or more omics datasets 
+- Optional - clinical data to predict outcomes 
 
 To perform attribute regularisation you can use one of the existing scripts from any RMV-VAE folder and substitute our datasets with yours.
 
