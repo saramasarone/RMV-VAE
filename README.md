@@ -3,7 +3,7 @@
 # Representation Learning to Effectively Integrate and Interpret Omics Data
 Scripts are currently organised by experiment:
 
-![alt text](http://url/to/img.png)
+![alt text]https://(github.com/[saramasarone]/[RMV-VAE]/abc.pdf)
 
 * BRCA_ER: VAE on breast cancer data - predicting ER
 * BRCA_Survival: RMV-VAE on breast cancer data - predicting ER
