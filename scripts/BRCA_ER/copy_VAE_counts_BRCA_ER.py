@@ -38,7 +38,7 @@ scaled_counts = pd.DataFrame(scaled_counts, index=counts.index)
 scaled_counts.columns = counts.columns
 print(scaled_counts.shape)
 
-# we are gonna use dead or alive as target  
+# we are gonna use survival as target  
 ###### MODEL here ######
 seed_value = 0
 os.environ['PYTHONHASHSEED'] = str(seed_value)
@@ -169,22 +169,6 @@ sns.scatterplot(x=pca_res[:, 0], y=pca_res[:, 1], hue=scaled_counts.loc[:,'FOXA1
 ax3.legend(loc="lower right")
 plt.show()
 
-
-# reducer umap
-# reducer = umap.UMAP(random_state=42)
-# embedding_umap = reducer.fit_transform(embedding)
-# original_umap = reducer.fit_transform(scaled_counts)
-
-# #UMAP embedding
-# fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12,4))
-# fig.suptitle("Umap of input data vs embedding")
-# ax1.set_title("Umap of embedding data")
-# sns.scatterplot(x = embedding_umap[:, 0], y=embedding_umap[:, 1], hue=y, palette = 'coolwarm', ax = ax1)
-# ax2.set_title("Umap of original ")
-# sns.scatterplot(x=original_umap[:, 0], y=original_umap[:, 1], hue=y, palette='coolwarm', ax = ax2)
-# plt.show()
-# print(embedding.shape)
-
 # compare VAE embedding with full dataset and filtered dataset without embedding
 clf_embedding = LogisticRegression(random_state=0)
 scores = cross_val_score(clf_embedding, embedding, y, cv=10)
@@ -208,5 +192,4 @@ print(scores_rf_orig)
 
 # export counts embedding
 embedding_df = pd.DataFrame(embedding, index = counts.index)
-#embedding_df.to_csv("/Users/smasarone/Documents/Omics_datasets_integration/BRCA_experiments/BRCA_embeddings/counts_embedding_BRCA_ER2.csv")
 
