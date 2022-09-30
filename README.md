@@ -1,4 +1,10 @@
 # RMV-VAE
 
-This is the official repository of the paper: Representation Learning to Effectively Integrate and Interpret Omics Data
+# Representation Learning to Effectively Integrate and Interpret Omics Data
+
+To run this script on your data you'll need:
+
+- two omics datasets 
+- optional - clinical data to predict outcomes
+
 
