@@ -1,6 +1,6 @@
-# RMV-VAE
+## RMV-VAE
 
-# Representation Learning to Effectively Integrate and Interpret Omics Data
+## Representation Learning to Effectively Integrate and Interpret Omics Data
 
 ![alt text](https://github.com/saramasarone/RMV-VAE/blob/main/diagram.png)
 
