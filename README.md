@@ -18,7 +18,7 @@ To run these scripts on your data you'll need:
 - Two or more omics datasets 
 - Optional - clinical data to predict outcomes 
 
-To perform attribute regularisation you can use one of the existing scripts from any RMV-VAE folder and substitute our datasets with yours.
+To perform attribute regularisation you can use one of the existing scripts from any RMV-VAE folder and substitute our datasets with yours. You'll have to replace the gene name by the variable to intend to normalise by. 
 
 ### Contacts
-email @ smasarone@turing.ac.uk
+email @ smasarone@turing.ac.uk :)
