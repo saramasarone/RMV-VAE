@@ -1,6 +1,8 @@
 ## RMV-VAE
 
 ## Representation Learning to Effectively Integrate and Interpret Omics Data
+OpenReview: https://openreview.net/forum?id=FRE7FT9DDAj 
+pdf: https://openreview.net/pdf?id=FRE7FT9DDAj
 
 ![alt text](https://github.com/saramasarone/RMV-VAE/blob/main/diagram.png)
 
