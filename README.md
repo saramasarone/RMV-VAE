@@ -3,7 +3,7 @@
 ## Representation Learning to Effectively Integrate and Interpret Omics Data
 pdf: https://openreview.net/pdf?id=FRE7FT9DDAj
 
-Presented at NeurIPS workshop 2022
+Presented at NeurIPS 2022 AI for Science Workshop
 
 ![alt text](https://github.com/saramasarone/RMV-VAE/blob/main/diagram.png)
 
